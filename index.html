@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nolio - restauracja neapolitańska.">
+
+    <link rel="stylesheet" href="vendors/css/normalize.css">
+    <link rel="stylesheet" href="vendors/css/grid.css">
+
+    <link rel="stylesheet" href="vendors/css/ionicons.min.css">
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/queries.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,700i,900&display=swap" rel="stylesheet">
+    <title>Nolio</title>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="row">
+                <img src="resources/img/logo.png" alt="logo" class="logo">
+                <ul class="main-nav">
+                    <li><a href="#">o nas</a></li>
+                    <li><a href="#">menu</a></li>
+                    <li><a href="#">kontakt</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="hero-text-box">
+            <h1>VERA PIZZA NEAPOLITANA</h1>
+            <a class="btn btn-full" href="#">Zamów!</a>
+            <a class="btn btn-ghost" href="#">Dojazd</a>
+        </div>
+    </header>
+
+    <div class="sidebar">
+        <div class="form__button">
+            <i class="ion-android-star-half"></i>
+        </div>
+        <div class="form">
+            <form>
+                <div class="row">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Your name" value="1" required>
+                    <label>Photo:</label>
+                    <input type="text" name="photo" id="photo" placeholder="Url to your photo" value="http://127.0.0.1:5500/resources/img/5.jpg"
+                        required></input>
+                    <label>Opinion:</label>
+                    <textarea name="opinion" id="opinion" placeholder="Let us know what do you think!" required></textarea>
+                    <input type="submit" class="btn btn-full" value="Send it!">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <section class="section-features">
+        <div class="row">
+            <h2>Najlpesza pizza w mieście &mdash; spróbuj sam</h2>
+            <p class="long-copy"></p>
+        </div>
+
+        <div class="row">
+            <p>Restauracja NOLIO inspirowana jest włoskim stylem życia, mentalnością, fantazją i gościnnością. To co
+                niezmiennie nas u Włochów urzeka to radość płynąca ze spotkania, ze wspólnego spędzania czasu, z
+                biesiadowania w gronie przyjaciół i rodziny i dzielenia się ze sobą jedzeniem. Włoska kuchnia jest
+                prosta, ale radość jej smakowania ogromna. Jest uniwersalna, dobra na co dzień, wciąż się do niej
+                wraca, bo ciężko się nią znudzić. Posiłki składają się z kilku dań: antipasti, primi piatti, secondi
+                piatti, dolci, i trwają bardzo długo.</p>
+        </div>
+    </section>
+
+
+    <section class="section-meals">
+        <div class="row">
+            <h2>WASZE OPINIE</h2>
+        </div>
+        <div class="meal-photo__container">
+            <figure class="meal-photo">
+                <img src="resources/img/1.jpg" alt="pizza1">
+            </figure>
+            <figure class="meal-photo">
+                <img src="resources/img/2.jpg" alt="pizz2">
+            </figure>
+            <figure class="meal-photo">
+                <img src="resources/img/3.jpg" alt="pizza3">
+            </figure>
+            <figure class="meal-photo">
+                <img src="resources/img/4.jpg" alt="pizza4">
+            </figure>
+            <figure class="meal-photo">
+                <img src="resources/img/5.jpg" alt="pizza5">
+            </figure>
+            <figure class="meal-photo">
+                <img src="resources/img/6.jpg" alt="pizza6">
+            </figure>
+            <figure class="meal-photo">
+                <img src="resources/img/7.jpg" alt="pizza7">
+            </figure>
+            <figure class="meal-photo">
+                <img src="resources/img/8.jpg" alt="pizza8">
+            </figure>
+        </div>
+
+    </section>
+    <section class="section-opinion">
+        <div class="opinion animated">
+            <p></p>
+            <h3></h3>
+        </div>
+    </section>
+
+    <section class="section-plans">
+        <div class="row">
+            <h2>CATERING</h2>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-3">
+                <div class="plan-box">
+                    <div>
+                        <h3>vip</h3>
+                        <p class="plan-price">2000zł<span>/miesiąc</span></p>
+                        <p class="plan-price-meal">Tylko 22zł za posiłek!</p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><i class="ion-ios-checkmark-empty icon-small"></i>3 posiłki dziennie</li>
+                            <li><i class="ion-ios-checkmark-empty icon-small"></i>Wybór posiłków 24/7</li>
+                            <li><i class="ion-ios-checkmark-empty icon-small"></i>Dostęp do nowych potraw</li>
+                            <li><i class="ion-ios-checkmark-empty icon-small"></i>Darmowa wysyłka</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <a href="#" class="btn btn-full">Zapisz się</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col span-1-of-3">
+                <div class="plan-box">
+                    <div>
+                        <h3>codziennie</h3>
+                        <p class="plan-price">900 zł<span>/miesiąc</span></p>
+                        <p class="plan-price-meal">30zł za posiłek!</p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><i class="ion-ios-checkmark-empty icon-small"></i>1 posiłkek dziennie</li>
+                            <li><i class="ion-ios-checkmark-empty icon-small"></i>Wybór posiłków 24/7</li>
+                            <li><i class="ion-ios-checkmark-empty icon-small"></i>Dostęp do nowych potraw</li>
+                            <li><i class="ion-ios-checkmark-empty icon-small"></i>Darmowa wysyłka</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <a href="#" class="btn btn-ghost">Zapisz się</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col span-1-of-3">
+                <div class="plan-box">
+                    <div>
+                        <h3>jednorazowo</h3>
+                        <p class="plan-price">19zł<span>/posiłek</span></p>
+                        <p class="plan-price-meal">&nbsp;</p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><i class="ion-ios-checkmark-empty icon-small"></i>1 posiłek</li>
+                            <li><i class="ion-ios-checkmark-empty icon-small"></i>Wybór w poniedziałki</li>
+                            <li><i class="ion-ios-close-empty icon-small"></i>Brak wyboru nowych potraw</li>
+                            <li><i class="ion-ios-close-empty icon-small"></i>Brak możliowści wysyłki</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <a href="#" class="btn btn-ghost">Zapisz się</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="row">
+            <div class="col span-1-of-2">
+                <ul class="footer-nav">
+                    <li><a href="#">O nas</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Kontakt</a></li>
+                </ul>
+            </div>
+            <div class="col span-1-of-2">
+                <ul class="social-links">
+                    <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                    <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+                    <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+                    <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <p>Copyright &copy; 2019 by Blazej Kustra.</p>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="resources/js/script.js"></script>
+</body>
+
+</html>
